@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "store": "browserify store_react_test.js -o store_react_test_build.js -t [ babelify --presets [ es2015 react] ]",
+    "store": "browserify store_react_test.js -o store_react_test_build.js -t [ babelify --presets [ es2015 react ] ]",
+    "container": "browserify container_test.js -o container_test_build.js -t [ babelify --presets [ es2015 react ] ]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
